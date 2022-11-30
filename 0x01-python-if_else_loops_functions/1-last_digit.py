@@ -6,9 +6,9 @@ if number < 0:
 else:
     mod = number % (10)
 print(f"Last digit of {number} is {mod}")
-if mod < 6 & mod != 0:
-    print("and is less than 6 and not 0")
+if mod == 0:
+    print("and is 0")
 elif mod > 5:
     print("and is greater than 5")
 else:
-    print("and is 0")
+    print("and is less than 6 and not 0")
